@@ -1,0 +1,21 @@
+body{
+    background: rgb(227, 204, 229);
+}
+
+/*.enviar1{
+    background-color: rgb(232, 202, 231);
+    color: blueviolet;
+    width: 200px;
+    margin: auto;
+
+}
+/*hover*/
+
+#miBoton {
+  background-color: blue;
+  color: white;
+}
+
+.rojo {
+  background-color: red;
+}
