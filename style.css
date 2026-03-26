@@ -1,21 +1,17 @@
-body{
+body {
     background: rgb(227, 204, 229);
+    text-align: center;
 }
-
-/*.enviar1{
-    background-color: rgb(232, 202, 231);
-    color: blueviolet;
-    width: 200px;
-    margin: auto;
-
-}
-/*hover*/
 
 #miBoton {
-  background-color: blue;
-  color: white;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
+/* 👇 usa !important para asegurar el cambio */
 .rojo {
-  background-color: red;
+    background-color: red !important;
 }

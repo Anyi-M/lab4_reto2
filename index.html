@@ -1,29 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <title>LABORATORIO 4</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="text-align: center; color: rgb(216, 68, 192);"> LABORATORIO 4</h1> </h1>
-    <H2 style="text-align: center; color: rgb(214, 118, 203);">Reto 2</H2>
 
-   <button id="miBoton">Haz clic</button>
+<h1>LABORATORIO 4</h1>
+<h2>Reto 2</h2>
+
+<button id="miBoton">Haz clic</button>
 
 <script>
+const boton = document.getElementById("miBoton");
+
 boton.addEventListener("click", function() {
-  console.log("clic detectado");
-  boton.classList.toggle("rojo");
+    boton.classList.toggle("rojo");
 });
 </script>
 
-
-
-    <button>enviar</button><br><br>
-    <button>enviar</button><br><br>
-    
 </body>
 </html>
